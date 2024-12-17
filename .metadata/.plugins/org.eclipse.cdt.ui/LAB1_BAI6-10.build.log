@@ -1,0 +1,22 @@
+15:13:24 **** Incremental Build of configuration Debug for project LAB1_BAI6-10 ****
+make -j12 all 
+arm-none-eabi-gcc -o "LAB1_BAI6-10.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\HCMUT\VXL\VXL_LAB\LAB1_BAI6-10\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB1_BAI6-10.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LAB1_BAI6-10.elf
+ 
+arm-none-eabi-size   LAB1_BAI6-10.elf 
+arm-none-eabi-objdump -h -S  LAB1_BAI6-10.elf  > "LAB1_BAI6-10.list"
+arm-none-eabi-objcopy  -O ihex  LAB1_BAI6-10.elf  "LAB1_BAI6-10.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5060	     20	   1580	   6660	   1a04	LAB1_BAI6-10.elf
+arm-none-eabi-objcopy  -O binary  LAB1_BAI6-10.elf  "LAB1_BAI6-10.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LAB1_BAI6-10.hex
+Finished building: LAB1_BAI6-10.bin
+ 
+ 
+Finished building: LAB1_BAI6-10.list
+ 
+
+15:13:25 Build Finished. 0 errors, 0 warnings. (took 443ms)
+

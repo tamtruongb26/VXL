@@ -1,0 +1,12 @@
+led7_segment.c:12:6:numToLed	16	static
+led7_segment.c:48:6:CLEAR	8	static
+led7_segment.c:57:6:ZERO	8	static
+led7_segment.c:66:6:ONE	8	static
+led7_segment.c:75:6:TWO	8	static
+led7_segment.c:84:6:THREE	8	static
+led7_segment.c:93:6:FOUR	8	static
+led7_segment.c:102:6:FIVE	8	static
+led7_segment.c:111:6:SIX	8	static
+led7_segment.c:120:6:SEVEN	8	static
+led7_segment.c:129:6:EIGHT	8	static
+led7_segment.c:138:6:NINE	8	static

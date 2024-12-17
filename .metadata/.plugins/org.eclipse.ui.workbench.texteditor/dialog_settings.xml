@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="updateClockBuffer1"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="true"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="updateClockBuffer"/>
+			<item value="num_to_led"/>
+			<item value="status1"/>
+			<item value="status"/>
+			<item value="numtoled"/>
+			<item value="status_ex1"/>
+			<item value="LED_GREEN"/>
+			<item value="LED_RED"/>
+			<item value="LED_YELLOW"/>
+		</list>
+		<list key="replacehistory">
+			<item value="updateClockBuffer1"/>
+			<item value="num2led"/>
+			<item value="status2"/>
+			<item value="status1"/>
+			<item value="num_to_led"/>
+			<item value="status"/>
+			<item value="status_ex1"/>
+			<item value=""/>
+			<item value="GREEN1"/>
+			<item value="RED1"/>
+			<item value="YELLOW1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="801"/>
+		<item key="DIALOG_Y_ORIGIN" value="247"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
